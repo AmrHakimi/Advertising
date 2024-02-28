@@ -1,3 +1,4 @@
+%%writefile Advertising.py
 import streamlit as st
 import pandas as pd
 import pickle
@@ -31,3 +32,4 @@ prediction = loaded_model.predict(df)
 
 st.subheader('Prediction')
 st.write(prediction)
+
